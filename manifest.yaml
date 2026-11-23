@@ -32,6 +32,12 @@ meta:
     language: python
     version: "3.12"
     entrypoint: main
+  minimum_dify_version: 1.0.0
 created_at: 2026-11-22T06:55:00Z
 privacy: PRIVACY.md
+repo: https://github.com/BF16-AI/bf16-dify-plugin
+contact: hello@bf16.ai
+tags:
+  - llm
+  - model_provider
 verified: false

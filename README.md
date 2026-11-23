@@ -18,6 +18,12 @@ Official Dify model provider plugin for [bf16.ai](https://bf16.ai), providing Op
 2. In Dify, go to **Settings -> Model Provider -> bf16.ai**.
 3. Enter your `sk-bf16-v1-...` API key (and optionally override the API Base URL; defaults to `https://api.bf16.ai/v1`).
 
+## Usage
+
+1. After saving your API key in **Settings -> Model Provider -> bf16.ai**, select any bf16.ai model (such as `deepseek/deepseek-v4.1-flash-uncensored-fast` for low-latency agent loops or `moonshotai/kimi-k3.1-pro-uncensored` for complex reasoning) in your Dify **Chatflow**, **Workflow**, or **Agent** LLM node.
+2. Adjust parameters such as temperature, max tokens, structured JSON output, and tool calling directly from the Dify model configuration panel.
+3. All inference requests default to strict zero data retention (ZDR) and support up to 1M input context tokens.
+
 ## Documentation
 
 - API docs: https://bf16.ai/docs
